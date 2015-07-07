@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SagePtr",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SagePtr/node-droppriv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SagePtr/node-droppriv/issues"
+  },
+  "homepage": "https://github.com/SagePtr/node-droppriv#readme"
 }
