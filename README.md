@@ -18,13 +18,22 @@ require('droppriv')(process.env.SETUID || 'nobody', process.env.SETGID || 'nogro
 
 If you want log droppriv:
 ```js
-require('droppriv')(process.env.SETUID || 'nobody', process.env.SETGID || 'nogroup', true);
+require('droppriv')(
+	process.env.SETUID || 'nobody',
+	process.env.SETGID || 'nogroup',
+	true
+);
 ```
 
 Or custom logging function:
 ```js
 var winston = require('winston');
 winston.cli();
+require('droppriv')(
+	process.env.SETUID || 'nobody',
+	process.env.SETGID || 'nogroup',
+	winston.info
+);
 ```
 
 # Requirements
