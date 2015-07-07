@@ -1,6 +1,6 @@
 {
   "name": "droppriv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Drops root privileges from current running script",
   "main": "index.js",
   "scripts": {
