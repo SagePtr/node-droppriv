@@ -25,6 +25,7 @@ Or custom logging function:
 ```js
 var winston = require('winston');
 winston.cli();
+```
 
 # Requirements
 
