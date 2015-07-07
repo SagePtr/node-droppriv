@@ -1,0 +1,11 @@
+{
+  "name": "droppriv",
+  "version": "0.0.1",
+  "description": "Drops root privileges from current running script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SagePtr",
+  "license": "MIT"
+}
